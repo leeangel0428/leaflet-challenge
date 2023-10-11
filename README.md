@@ -34,7 +34,13 @@ Your visualization should look something like the preceding map:
 # Additional Information
 In this repository, you will find a Leaflet-Part-1 folder, a Reference-Images folder, and the index.html file. In the Leaflet-Part-1 folder, you will find the static folder that contain two separate folders, the css folder that holds the css file and the js folder that holds the js file. This is for organizational purposes. 
 
-Here is the link to view/interact with my webpage: ______
+Things I did differently:
+1) Add a topography layer. I chose to add this when I was debating on whether or not I wanted to proceed with Part 2 or the advanced challenge.
+2) My legend looks different from the reference image because I wasn't sure of how to get the swatches to stay one color/darkening/lightening that one color. The code I tried also did not work so I had to tweak it until something acceptable appeared. 
+
+Aside from the sources cited below, everything used was retained information gathered from my classes and class activities. As always shout out to my bootcamp TAs Sam and Randy for all their help answering my questions during office hours, my instructor Hunter for always being clear in his articulation of the course material, and my classmates for their encouragement and support.
+
+#### Here is the link to view/interact with my webpage: https://leeangel0428.github.io/leaflet-challenge/
 
 # Trouble Shooting
 1) Got a "net:: ERR_FILE_NOT_FOUND" regarding both my css and js files so I had to update the HTML to include my path.
@@ -62,11 +68,11 @@ This was what the map looked like. I figured I did something wrong... so I refer
 Even when I had the AI service explain the code to me line by line, I couldn't get it to work in my files. I spent hours tweaking it until I learned about "&nbsp". I incorporated it into my line of code and it worked, so I used that as a template for each color swatch of my legend. Basically what I did was color each non-breaking space entity to create what appears to be a swatch. 
 
 # Resources/Citations (In Usage Order):
-### GeoJSON Data Retrieval:
+#### GeoJSON Data Retrieval:
 USGS. (n.d.). GeoJSON Summary Format. USGS. Retrieved from: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 
-### Using ChatGPT for Legend:
+#### Using ChatGPT for Legend:
 OpenAI. (2023). ChatGPT (October 10 Version)[Large language model]. Retrieved from: https://chat.openai.com/chat
 
-### How to use &nbsp for Legend creation:
+#### How to use &nbsp for Legend creation:
 Chris, K. (2021, August 19th). HMTL Space- How to Add a Non-breaking Space with the &nbsp; Character Entity. FreeCodeCamp. Retrieved from: https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/
