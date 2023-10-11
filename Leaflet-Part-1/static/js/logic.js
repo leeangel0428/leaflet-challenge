@@ -48,6 +48,7 @@ let earthquakes= d3.json(url).then(function(data) {
             fillColor: circleColor(depth),
             fillOpacity: 0.5,
             weight: 0.5
+            //Use bindPopup to create the popups--add html elements to display information
             }).bindPopup(`<h2>Magnitude ${magnitude}</h2>
             <h2>Depth: ${depth}</h2><hr>
             <h2>Lat: ${parseFloat(latitude)}, Long: ${parseFloat(longitude)}</h2>`).addTo(weekLayer)
